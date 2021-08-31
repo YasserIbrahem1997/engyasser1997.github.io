@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <!--<meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no">-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/css.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/fontawesome.min.css">
+    <link rel="stylesheet" href="css/normalize.css">
+
+    
+  
+    <title>portfolio</title>
+  </head>
+  <body>
+
+    <!-- strat loding page All-->
+    <div id="loader-wrapper">
+      <div id="loader"></div>
+
+      <div class="loader-section section-left"></div>
+      <div class="loader-section section-right"></div>
+
+    </div>
+    <!-- strat loding page All-->
+
+    <!-- start settings box-->
+    <div class="settings-box">
+      <div class="toggle-settings">
+        <i class="fa fa-gear"></i>
+      </div>
+        <div class="settings-continer">
+          <div class="opctions-box">
+            <h4>color list</h4>
+            <ul class="colors-list">
+              <li class="active" data-color="#FF9800"></li>
+              <li data-color="#E91E64"></li>
+              <li data-color="#009688"></li>
+              <li data-color="#03A9F4"></li>
+              <li data-color="#4CAF50"></li>
+            </ul>
+          </div>
+                <div class="opctions-box">
+                  <div class="random-background">
+                  <h4>Background Option</h4>
+                  <span class="yas active" data-background="yes">Yes</span>
+                  <span class="no" data-background="no">No</span>
+                  </div>
+              </div>
+              <div class="opctions-box">
+                  <h4>Show Bullets</h4>
+                <div class="bullets-option">
+                <span class="yas active" data-display="show">Yes</span>
+                <span class="no" data-display="hide">No</span>
+                </div>
+            </div>
+            <button class="reset-option"> Reset Option</button>
+        </div>
+    </div>
+    <!-- end settings box-->
+
+    <!-- start nav bullets flowt -->
+    <div class="nav-bullets">
+      <div class="bullet"  data-section=".landing">
+        <div class="tooltip">Home</div>
+      </div>
+      <div class="bullet"  data-section=".about-us">
+        <div class="tooltip">About Me</div>
+      </div>
+      <div class="bullet"  data-section=".skills">
+        <div class="tooltip">My skills</div>
+      </div>
+      <div class="bullet"  data-section=".gallery">
+        <div class="tooltip">My Portfolio</div>
+      </div>
+      <div class="bullet"  data-section=".features">
+        <div class="tooltip">My Services</div>
+      </div>
+      <div class="bullet"  data-section=".testimonials">
+        <div class="tooltip">Testimonials</div>
+      </div>
+      <div class="bullet"  data-section=".contat">
+        <div class="tooltip">Contact Me</div>
+      </div>
+    </div>
+
+    <!-- end nav bullets -->
+
+  <!--start lading -->
+  <div class="landing">
+    <div class="overlay"></div>
+     <div class="container">
+    <div class="header-area">
+      <div class="logo">Special Desgin</div>
+      <div class="links-container">
+        <ul class="home-links">
+            <li ><a class="active" href="#" data-section=".landing">Home</a></li>
+            <li ><a  href="#about-us" onclick="myFunction()">About Me</a></li>
+            <li ><a  href="#skills" onclick="myFunction()">My skills</a></li>
+            <li ><a  href="#gallery" onclick="myFunction()">My Portfolio</a></li>
+            <li ><a  href="#features" onclick="myFunction()">My Services</a></li>
+            <li ><a  href="#testimonials" onclick="myFunction()">Testimonials</a></li>
+            <li ><a href="#contat" onclick="myFunction()">Contant Me</a></li>
+        </ul>
+        
+        <button class="toogle-menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+     </div>
+     
+    </div>
+    </div>
+    <div class="intro-text">
+      <h1>Hello I'm</h1>
+      <p class="yasser">YASSER IBRAHIM El-ABASY</p>
+      <p class="owner"> CREATIVE DIRECTOR </p>
+      <p class="rezume">AND THIS IS MY REZUME</p>
+    </div>
+    
+  </div>
+  <!--end lading -->
+
+  <!--start imgs about us -->
+  
+  <div class="container" id="about-us">
+    <div class="about-us">
+      <div class="info-box">
+        <h2>About Me</h2>
+        <p class="info-study">I Am Yasser Ibrahim <br>
+          From Egypt<br>
+           25 Years Old<br>
+          Currently Studying In The College Of Computer Science Department<br>
+          Graduation Year 2021</p>
+          </div>
+        <div class="image-box">
+          <img src="img/about-us.jpg" alt="about-us ">
+      </div>
+    </div>
+  </div>
+  
+  <!-- start skills name  and progres-->
+
+  <div class="skills" id="skills">
+    <div class="container">
+      <h2>My skills In Programing</h2>
+      <div class="skill-box">
+        <div class="skill-name">HTML</div>
+        <div class="skill-progress">
+          <span  data-progress="90%"></span>
+        </div>
+      </div>
+      <div class="skill-box">
+        <div class="skill-name">CSS</div>
+        <div class="skill-progress">
+          <span  data-progress="85%"></span>
+        </div>
+      </div>
+      <div class="skill-box">
+        <div class="skill-name">JavaScript</div>
+        <div class="skill-progress">
+          <span  data-progress="75%"></span>
+        </div>
+      </div>
+      
+      <div class="skill-box">
+        <div class="skill-name">jquery</div>
+        <div class="skill-progress">
+          <span data-progress="70%"></span>
+        </div>
+      </div>
+      <div class="skill-box">
+        <div class="skill-name">Bootstrap</div>
+        <div class="skill-progress">
+          <span data-progress="70%"></span>
+        </div>
+      </div>
+      <div class="skill-box">
+        <div class="skill-name">React</div>
+        <div class="skill-progress">
+          <span  data-progress="75%"></span>
+        </div>
+      </div>
+      <div class="skill-box">
+        <div class="skill-name">PHP</div>
+        <div class="skill-progress">
+          <span data-progress="65%"></span>
+        </div>
+      </div>
+      <div class="skill-box">
+        <div class="skill-name">MySql</div>
+        <div class="skill-progress">
+          <span data-progress="80%"></span>
+        </div>
+      </div>
+      <div class="skill-box">
+        <div class="skill-name">Wordpress</div>
+        <div class="skill-progress">
+          <span data-progress="85%"></span>
+        </div>
+        
+      </div>
+    </div>
+  </div>  
+  <!-- end  skills name  and progres-->
+
+   <!-- start skills name  and progres-->
+
+   <div class="skills" id="skills">
+    <div class="container">
+      <h2>My skills In Photoshop</h2>
+      <div class="skill-box">
+        <div class="skill-name">UI/UX</div>
+        <div class="skill-progress">
+          <span  data-progress="90%"></span>
+        </div>
+      </div>
+      <div class="skill-box">
+        <div class="skill-name">Photoshop</div>
+        <div class="skill-progress">
+          <span  data-progress="75%"></span>
+        </div>
+      </div>
+      <div class="skill-box">
+        <div class="skill-name">Illustrator</div>
+        <div class="skill-progress">
+          <span  data-progress="80%"></span>
+        </div>
+      </div>
+    </div>
+  </div>  
+  <!-- end  skills name  and progres-->
+
+   <!--start my work in web sait in ui/ux-->
+
+   <div class="Websait" id="gallery">
+    <div class="container">
+      <h2>Websait's</h2>
+      <div class="images-box">
+        <a href="https://mazar.store/"><img src="img/web/Mazar.jpg" ></a>
+        <a href="https://egycreators.com/"><img src= "img/web/egy creators 2.jpg"></a>
+        <a href="https://elkoshk.shop/"><img src="img/web/elkoshk.jpg" ></a>
+        <a href="https://koktaildeals.com/"><img src="img/web/koktal.jpg" ></a>
+        <a href="https://egycreators.elkoshk.shop/"><img src= "img/web/uscreatos.jpg"></a>
+
+      </div>
+    </div>
+  </div>
+  <!--end   our gallery-->
+
+  <!--start our gallery in ui/ux-->
+
+  <div class="gallery" id="gallery">
+    <div class="container">
+      <h2>My Portfolio In Ui/Ux</h2>
+      <div class="images-box">
+        <a href="https://www.behance.net/gallery/117877219/Music-App-Landing-Page"><img src="img/ui/mobil.png"></a>
+        <a href="https://www.behance.net/gallery/119556199/Landing-Page-from-Buy-Laptop"><img src="img/ui/landing page.png" alt="image tow"></a>
+        <a href="https://www.behance.net/gallery/116976861/landing-page-for-mobile"><img src="img/ui/landing page for mobile.png" alt="image three"></a>
+        <a href="https://www.behance.net/gallery/119556199/Landing-Page-from-Buy-Laptop"><img src="img/ui/landing page 2.jpg" ></a>
+        <a href="https://www.behance.net/gallery/123725499/last-landing-page-in-samrt-watch-Apple"><img src="img/ui/landing page in watch.png" ></a>
+        <a href="https://www.behance.net/gallery/119556199/Landing-Page-from-Buy-Laptop"><img src="img/ui/landing page laptop freee.png" ></a>
+      </div>
+    </div>
+  </div>
+  <!--end   our gallery-->
+
+
+  <!--start features -->
+
+  <div class="features" id="features">
+    <h2>My Services</h2>
+    <div class="container">
+      <div class="feat-box">
+        <img src="img/icon/online-shopping.svg" alt="">
+        <h4>Create Website Ecommerce </h4>
+        <p> I can create ecommerce, add any plugin you like, and link Google Sheet to complete the order  </p>
+      </div>
+      <div class="feat-box">
+        <img src="img/icon/coding.svg" alt="">
+        <h4> Website Design And Development </h4>
+        <p>Create a website design and development with special codes for the languages in Special Skills  </p>
+      </div>
+      <div class="feat-box">
+        <img src="img/icon/wordpress.svg" alt="">
+        <h4> wordpress from scratch </h4>
+        <p> Create an entire website with WordPress from scratch, or you can choose a template or theme and you can modify it  </p>
+      </div>
+      <div class="feat-box">
+        <img src="img/icon/advertise.svg" alt="">
+        <h4> Advertising campaign </h4>
+        <p> I can promote your site and create paid ads for it or for any product, especially on the ecommerce sites on Facebook, then  </p>
+      </div>
+      <div class="feat-box">
+        <img src="img/icon/ui-design.svg" alt="">
+        <h4> Ui /Ux  Design </h4>
+        <p>You can design an entire website ui / ux only, you can send private information or data to the website  </p>
+      </div>
+      <div class="feat-box">
+        <img src="img/icon/computer.svg" alt="">
+        <h4> Graphic Design </h4>
+        <p> Create a photoshop design or a corporate logo design in Illustrator, but there is not enough experience in this field  </p>
+    </div>
+      <div class="clearfix"></div>
+    </div>
+  </div>
+  <!--end features -->
+
+<!-- start testimonials-->
+  <div class="testimonials" id="testimonials">
+    <div class="container">
+      <h2>Testimonials</h2>
+      <div class="ts-box">
+        <p>حقيقي من اشطر الناس الي اشتغلت معاها وكمان الاستمرارية
+          في المتابعة والتعديل  كانو مهمين جدا معايا</p>
+        <div class="proson-info">
+        <!-- <img  src="http://placehold.it/80/DDD" alt="error image"> -->
+          <h4>Mohamed Zare</h4>
+          <p>Mazar website owner</p>
+        </div>
+      </div>
+      <div class="ts-box">
+        <p>شخص محترم جدا وملتزم بمواعيدو وشغلو فوق الممتاز والتعديلات الي كنتو
+           ببلغو بيها كانت بتخلص اول بأول 
+        </p>
+        <div class="proson-info">
+        <!-- <img src="http://placehold.it/80/EEE" alt="error image"> -->
+          <h4> Mahmoud Omar</h4>
+          <p>koktaildeals Website Owner</p>
+        </div>
+      </div>
+      <div class="ts-box">
+        <p>من اشطر الاشخاص حقيقي وبيحب يساعد جدا حتي لو علي حسابو وملتزم جدا بالديد لاين حقيقي
+           ممتانك ليك ولشغلك الجميل دا واتمني ميكونش اخر شغل نشتغلو مع بعض </p>
+        <div class="proson-info">
+        <!-- <img  src="http://placehold.it/80/AAA" alt="error image"> -->
+          <h4> Doaa Badr</h4>
+          <p>Us creators MArkting Websait Owner</p>
+        </div>
+      </div>
+      <div class="trans">
+      <div class="ts-box">
+        <p>انا مش بعرف اقول رأي قد كدا بس كل الي اقدر اقولو ان  مكانتك قريب جدا 
+          هتكون في افضل الشركات في مصر والتزمك بالموعيد كانت ميزه كويسه جدا فيك</p>
+        <div class="proson-info">
+        <!-- <img  src="http://placehold.it/80/AAA" alt="error image"> -->
+          <h4> Mohamed Ibrahem</h4>
+          <p>elkoshk Websait Owner</p>
+        </div>
+      </div>
+      <div class="ts-box">
+        <p>انا كنت فاكره ان انشاء الويب سايت معقد وبياخد وقت كبير بس فكرة انك تخلصو
+           في الفتره القليله دي وانك ملتزم بالديد لاين دا كان انجاز كبير بالنسبه ليا وحقيقي سعيده جدا بالتعامل معاك</p>
+        <div class="proson-info">
+        <!-- <img  src="http://placehold.it/80/AAA" alt="error image"> -->
+          <h4>abeer elhawary</h4>
+          <p>Pr For egy creators company</p>
+        </div>
+      </div>
+    </div>
+    </div>
+    <div class="clearfix"></div>
+    
+  </div>
+<!-- end testimonials-->
+
+<!-- start contact-->
+<div class="contat" id="contat">
+  <div class="overlay"></div>
+    <div class="container">
+        <h4>Contact Me</h4>
+        <form action="https://formsubmit.co/yasserelabasy1997@gmail.com" method="POST">
+          <div class="left">
+        <input type="text" placeholder="Your Name" name="Username">
+        <input type="text" placeholder="Phone" name="Phone">
+        <input type="email" placeholder="Emeil" name="Emeil">
+        <input type="text" placeholder="SubJect" name="SubJect">
+          </div>
+          <div class="right">
+            <textarea name="massage" placeholder="massage"></textarea>
+            <input type="submit" value="send">
+          </div>
+      </form>
+    </div>
+</div>
+<!-- end contact-->
+
+<!--start footer-->
+
+<div class="footer">
+  <div class="container">
+    <footer>
+       <div class="en">All rights reserved Copyright 2020 © <br class="ar">جميع حقوق النشر محفوظة 2020 ©</br></div>
+      </footer>
+      <div class="social-media" id="contat">
+        <a href="https://m.facebook.com/love.20020"> <i class="fa fa-facebook fa-span" ></i></a>
+        <a href="https://twitter.com/Yasser_14M"><i class="fa fa-twitter"></i></a>
+        <a href="https://www.instagram.com/yas.seribrahim/"> <i class="fa fa-instagram"></i></a>
+        <a href="https://www.linkedin.com/in/yasser-ibrahem-006bb71b1/"><i class="fa fa-linkedin"></i></a>
+        <a href="https://wa.me/201014012989"><i class="fa fa-whatsapp"></i></a>
+      </div>
+  </div>
+
+</div>
+
+<!--end footer-->
+<!-- start social midea-->
+
+
+<!-- end social midea-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="js/jquery-3.5.1.min.js"></script>
+
+    <script src="js/html5shiv.min.js"></script>
+    <script src="js/js.js"></script>
+  </body>
+</html>
